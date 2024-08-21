@@ -1,7 +1,4 @@
-
 import './educationcomponent.css'
-
-
 interface EducationProperties{
     SchoolName: String
     SchoolYear: {to: number, from: number}
@@ -10,12 +7,9 @@ interface EducationProperties{
 }
 
 function EducationComponent({ SchoolName, Description, SchoolYear, Skills } : EducationProperties) {
-    //const [listItems, setListItems] = useState([]);
-    
-
     return(
         <>
-        <div className="card">
+        <div className="card mb-3">
             <div className="card-header">
                 <div className="row">
                     <div className="col text-start">
@@ -30,6 +24,7 @@ function EducationComponent({ SchoolName, Description, SchoolYear, Skills } : Ed
                 <p>{Description}</p>
             </div>
             <div className="card-footer">
+            <h6>Skills I've Acquired</h6>
                     {Skills.map((skill, index) =>(
                         <span className='skills me-3' key={index}>{skill}</span>
                     ))}
