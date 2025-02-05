@@ -2,21 +2,19 @@ function informations() {
     return(
         <>
         <p>
-            In 2019, I served as the lead programmer in a research project
-            developing a library system for Bulacan College of Commerce and
-            Trade. Using Visual Basic Studio as the IDE, VB.NET for both 
-            backend and frontend, and SQL for the database, we aimed to 
-            streamline library transactions. This experience motivated me to 
-            pursue a related course in college. Throughout college, I consistently 
+            Since I was a kid I'm really into technology I vaguely remember that time that I
+            got into trouble because I cannot help but to tinkle the computer just to get the
+            password for their network. Since then my passion for tech widens. Throughout college,I consistently 
             led group projects, honing my skills. I am eager to learn new technologies 
-            required for the job and have proven to be a team player. Please see the
-            project section to view more of my projects!
+            required for the job and have proven to be a team player. From 2022 I worked
+            as a freelancer and as part-timer for a senior developer in Upwork. 
         </p>
 
         <p>
-            Now, That I'm graduating I can say that I'm ready to what's ahead
-            and embark a new Journey in my choosen field! My core stack includes Java for software
-            development and PHP, Bootstrap, and Javascript for web development.
+            In 2024, I was fortunate to land my first big project. A medium-sized business in Laguna 
+            hired me to create their <b>Inventory and Point of Sale</b> system. I built it using Laravel, SQL, 
+            JavaScript, AJAX, Tailwind CSS, and a bit of luck. Since I didn't have a partner for the 
+            job, I handled everything myself and full stack the project, from system investigation to deployment.
         </p>
 
         <p>

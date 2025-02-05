@@ -16,6 +16,7 @@ html, body, .App, .root {
 
 h1{
     color: var(--DefualtFontColor);
+    
 }
 
 h3{
@@ -24,6 +25,7 @@ h3{
 
 h4{
     color: var(--DefualtFontColor);
+    font-size: larger !important;
 }
 
 p{
@@ -42,6 +44,7 @@ a{
 body{
     overflow: hidden;
 }
+
 
 .leftsideOfCol{
     height: 100vh;
@@ -106,14 +109,61 @@ body{
     width: 100%;
   }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 720px) {
     .backToMenu{
         display: inline-block;
     }
+}
+
+@media only screen and (max-width: 490px) {
+    .card-body{
+        text-align: center;
+    }
+
+    #learned li{
+        list-style: none !important;
+    }
+
+    ul{
+        margin-left: 0;
+        padding: 0;
+    }
+
+    #about{
+        text-align: center !important;
+    }
+
+    #ProjectIcon{
+        width: 25%;
+    }
+}
+
+.fade-in {
+	-webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @keyframes FollowCursor {
     from{transform: translate(0,0)};
     to{transform: translate(var(--mouseX), var(--mouseY))};
 }
+
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
 

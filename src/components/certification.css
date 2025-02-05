@@ -7,3 +7,9 @@
     list-style-type: square;
     color: var(--DescriptionFontColor);
 }
+
+@media only screen and(max-width: 430px){
+    card-body .obtainedDate{
+        font-size: xx-large;
+    }
+}

@@ -1,0 +1,9 @@
+
+#ProjectIcon{
+    width: 50%;
+}
+@media only screen and (max-width: 767px) {
+    #ProjectIcon{
+        width: 25%;
+    }
+}
